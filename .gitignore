@@ -1,0 +1,51 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment directories
+venv/
+env/
+*.env/
+
+# Ignore Flask instance folder (where the application runs)
+instance/
+
+# Ignore SQLite database files (or other database files if used)
+*.db
+*.sqlite3
+
+# Ignore log files
+*.log
+
+# Ignore environment variable files (e.g., .env) containing sensitive information
+.env
+
+# Ignore migrations folder if not using version control for migrations
+/migrations/
+
+# Ignore IDE/editor files (common for VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Ignore test output directories
+/tests/__pycache__/
+
+# Ignore coverage reports
+.coverage
+*.coveragerc
+
+# Ignore pyenv and pipenv environments
+.python-version
+Pipfile.lock
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore mypy cache directory
+.mypy_cache/
+
+# Ignore any other custom files you don't want to include
+.DS_Store   # macOS system file
+Thumbs.db   # Windows system file
