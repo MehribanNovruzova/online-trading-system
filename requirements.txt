@@ -1,0 +1,9 @@
+Flask==2.2.2                  # The web framework to create the API
+Flask-SQLAlchemy==2.5.1        # For interacting with a database (e.g., SQLite, PostgreSQL)
+Flask-Migrate==3.1.0           # For database migrations
+Flask-RESTful==0.3.9           # For creating REST APIs in Flask (optional)
+Flask-JWT-Extended==4.4.4      # For JWT authentication (useful for user login)
+requests==2.28.1               # For making HTTP requests (e.g., interacting with other services)
+pytest==7.2.2                  # For running tests
+pytest-flask==1.2.0            # For testing Flask applications
+python-dotenv==0.21.1          # For loading environment variables from .env file
