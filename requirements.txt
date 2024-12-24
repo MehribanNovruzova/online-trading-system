@@ -8,3 +8,4 @@ pytest==7.2.2                  # For running tests
 pytest-flask==1.2.0            # For testing Flask applications
 python-dotenv==0.21.1          # For loading environment variables from .env file
 uvicorn==0.18.3
+werkzeug flask
